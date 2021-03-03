@@ -3,11 +3,11 @@ b = 5
 print(a + b)
 
 
-#sex = input("Укажите ваш пол: ")
-#name = input("Укажите ваше имя: ")
-#age = int(input("Укажите ваш возраст: "))
+sex = input("Укажите ваш пол: ")
+name = input("Укажите ваше имя: ")
+age = int(input("Укажите ваш возраст: "))
 
-#print(sex, name, age, )
+print(sex, name, age, )
 
 
 #time = int(input("Введите время в секундах: "))
@@ -48,15 +48,15 @@ print(a + b)
 #else: print("Ваша фирама работает в убыток")
 
 
-a = int(input("Километраж первого дня: "))
-b = int(input("Необходимый результат: "))
-result_days = 1
-result_km = a
-while result_km < b:
-    a = a * 1.1
-    result_days += 1
-    if a < b:
-        continue
-    else:
-     print(f"Спортсмен достигнете результата {b} км за {result_days} дней")
-     break
+#a = int(input("Километраж первого дня: "))
+#b = int(input("Необходимый результат: "))
+#result_days = 1
+#result_km = a
+#while result_km < b:
+#    a = a * 1.1
+#    result_days += 1
+#    if a < b:
+#        continue
+#    else:
+#     print(f"Спортсмен достигнете результата {b} км за {result_days} дней")
+#     break
